@@ -13,7 +13,7 @@ echo "ddg tracker fingerprint threshold: $ddg_tracker_fingerprint_threshold";
 echo "ddg tracker output file path: $ddg_tracker_output_file_path";
 
 
-FULLPATH="/tmp/ddg-tracker-radar";
+FULLPATH="/'your_path'/ddg-tracker-radar";
 echo "Writing tracker radar repo to: $FULLPATH";
 
 # clone ddg tracker radar repo
