@@ -17,7 +17,7 @@ FULLPATH="/tmp/ddg-tracker-radar";
 echo "Writing tracker radar repo to: $FULLPATH";
 
 # clone ddg tracker radar repo
-git clone https://github.com/duckduckgo/tracker-radar.git $FULLPATH
+git pull https://github.com/duckduckgo/tracker-radar.git $FULLPATH
 
 # execute tracker script
 DOMAINFILES="$FULLPATH/domains"
