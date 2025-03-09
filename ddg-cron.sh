@@ -23,5 +23,3 @@ git clone https://github.com/duckduckgo/tracker-radar.git $FULLPATH
 DOMAINFILES="$FULLPATH/domains"
 python3 $generate_script_path $DOMAINFILES --fingerprinting_threshold $ddg_tracker_fingerprint_threshold --output $ddg_tracker_output_file_path
 
-# clean repo
-rm -fr $FULLPATH
